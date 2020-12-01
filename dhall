@@ -23,9 +23,9 @@ age = age
 in student
 let sgroup : List Student = 
 [
-makestudent "alex rubsov" 65 47,
-makestudent "savva pos" 8 8,
-makestudent "kirill ovchinnikov" 40 54
+makestudent "alex rubsov" 64 43,
+makestudent "savva pos" 11 18,
+makestudent "kirill ovchinnikov" 45 55
 ]
 let groups = generate 24 Text (\(n: Natural) -> makegroup (n + 1))
  
